@@ -6,3 +6,12 @@ The task here today will be to create a very simple ui to search for and render 
 *Please do not post the provided api keys publically.*
 
 You'll find in this repository an index file pointing to static a static css file and js file, but feel free to utilize any kind of local development tooling (brocolli, webpack, parcel, etc) to speed up the process.
+
+
+## NOTE you will need to set up an env-vars.js file to actually make it work... due one of the exercise objectives was to not publically push them..
+
+    export default {
+      omdbUrl: 'http://www.omdbapi.com',
+      omdbKey: <YOUR-KEY>',
+      omdbType: 'movie',
+    }
