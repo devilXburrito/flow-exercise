@@ -1,0 +1,31 @@
+/* Any CSS you use to flesh out your UI can go here */
+body {
+    background-color: darkslategray;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+app {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.search-movie {
+    display: flex;
+    flex-flow: column;
+    padding: 25px;
+}
+
+.search-movie_input {
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+
